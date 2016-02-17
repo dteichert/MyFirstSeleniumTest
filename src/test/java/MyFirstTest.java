@@ -17,7 +17,7 @@ public class MyFirstTest {
         Assert.assertTrue("title should start with Exklusive Mode",
                 driver.getTitle().startsWith("Exklusive Mode"));
 
-        driver.close();
+        
         driver.quit();
     }
 
